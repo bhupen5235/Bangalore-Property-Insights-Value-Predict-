@@ -1,4 +1,4 @@
-# Banglore_property_analysis
+# Bangalore Property Insights & Value Predict 
 This project aims to predict property prices in Bangalore by scraping data from the Makkan website, cleaning and extracting features from the data, and building machine learning models. The process is implemented using Python and various libraries, organized into separate Jupyter Notebook files for each major step.
 
 ## Table of Contents

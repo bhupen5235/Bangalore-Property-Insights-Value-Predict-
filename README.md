@@ -22,19 +22,19 @@ This project aims to predict property prices in Bangalore using machine learning
 
 ### Objective:
 Collect raw data on Bangalore properties directly from the Makaan website (https://www.makaan.com/) using web scraping techniques tailored for dynamic content.
- ### Methodology:
+### Methodology:
 
-**Tool:** Utilize Selenium for dynamic content handling.
+**Tool:** Utilize `Selenium` for dynamic content handling.
 
 **Data Points:**  Extract details like bedrooms, bathrooms, location, price, and size.
 
 ### Challenges Faced:
 
-**Dynamic Content Handling:** Handled with Selenium for scrolling, clicking, and loading hidden data.
+**Dynamic Content Handling:**  Handled with Selenium for scrolling, clicking, and loading hidden data.
 
-**Data Integrity:** Validated data against listings and handled timeouts/delays.
+**Data Integrity:**  Validated data against listings and handled timeouts/delays.
 
-**Output:** Comprehensive CSV dataset containing scraped features.
+**Output:**  Comprehensive CSV dataset containing scraped features.
 
 ## Data Cleaning (cleaning.ipynb)
 
@@ -57,9 +57,9 @@ Extract additional features and categorize existing data.
 
 **No. of Bathrooms Extraction:** Develop a function to extract the number of bathrooms from the description.
 
-**Locality Standardization:** Clean locality names for consistent entries.
+**No. of BHK:** Develop a function to extract the number of BHK from the Property column
 
-**Region Classification:** (Replace with your approach if applicable)
+**Locality Standardization:** Clean locality names for consistent entries.
 
 **Output:** Enriched dataset with extracted features (e.g., number of bathrooms) saved as ML_ready.csv.
 
@@ -68,33 +68,33 @@ Extract additional features and categorize existing data.
 ### Objective:
 Develop and evaluate machine learning models for price prediction.
 ### Models: 
- * Linear Regression
+ * `Linear Regression`
    
- * Decision Tree
+ * `Decision Tree`
      
- * Random Forest
+ * `Random Forest`
  
 ### Approach:
-Data split (training/testing) for model evaluation and k-fold cross-validation for stability assessment.
+Data split (training/testing) for model evaluation and `k-fold cross-validation` for stability assessment.
 
 Hyperparameter tuning to optimize model performance.
 
-Evaluation using Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared.
+Evaluation using `Mean Absolute Error (MAE)` , `Mean Squared Error (MSE)` , and `R-squared.`
 
 **Output:** The best-performing model saved for potential deployment.
 ## Tools & Libraries
 
-**Python:** Core language for development.
+**`Python:`** Core language for development.
 
-**Selenium:** Web scraping for dynamic content. (Replaced Beautiful Soup)
+**`Selenium:`** Web scraping for dynamic content. (Replaced Beautiful Soup)
 
-**Pandas & NumPy:** Data manipulation and analysis.
+**`Pandas & NumPy:`** Data manipulation and analysis.
 
-**Scikit-learn:** Machine learning algorithms and evaluation metrics.
+**`Scikit-learn:`** Machine learning algorithms and evaluation metrics.
 
-**Matplotlib & Seaborn:** Data visualization.
+**`Matplotlib & Seaborn:`** Data visualization.
 
-**VS Code (Jupyter Extension):** Interactive development environment.
+**`VS Code (Jupyter Extension):`** Interactive development environment.
 
 
 
@@ -102,7 +102,7 @@ Evaluation using Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squa
 
 **Clone the repository.**
 
-  Install required libraries  '(pip install -r requirements.txt).'
+  Install required libraries  `(pip install -r requirements.txt)`.
 
 **Execute Jupyter Notebooks:**
 

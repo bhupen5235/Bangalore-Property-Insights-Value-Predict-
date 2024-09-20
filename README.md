@@ -13,6 +13,7 @@ This project aims to predict property prices in Bangalore by scraping data from 
 8. How to Run
 9. Future Enhancements
 10. Contributing
+11. Analysis Dashboard
 
 ## Project Overview
 
@@ -124,3 +125,7 @@ Develop a deployment solution (web application or API).
 ## Contributing
 We welcome contributions to enhance this project. If you have suggestions or improvements, please fork the repository, create a new branch with your changes, and submit
 We welcome contributions! Fork the repository, create a branch with your changes, and submit a pull request.
+
+
+## Analysis Dashboard
+![Screenshot 2024-09-20 221507](https://github.com/user-attachments/assets/e120c2a1-1417-4718-be20-4ca2046505e8)
